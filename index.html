@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <meta charset="utf-8">
+    <title>магазин</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <script src="scripts/name.js"></script>
+  </head>
+  <body onload="chg_name()">
+    <main>
+      <!--                     верх                             -->
+      <div class="navigation">
+        <nav class="top_bar_1">
+          <div class="left">
+            <div class="logo">
+              <img src="img/logo.png" alt="logo" /><span>игруля</span>
+            </div>
+            <div class="friends">
+              <input id="chk_1" class="UP" type="checkbox" name="friend" />
+              <label for="chk_1">Друзья</label>
+              <ul class="sub">
+                <li><a href="html/oops.html">Список</a></li>
+                <li><a href="html/oops.html">Добавить</a></li>
+              </ul>
+            </div>
+            <div class="games">
+              <input id="chk_2" class="UP" type="checkbox" name="game" />
+              <label for="chk_2">Игры</label>
+              <ul class="sub">
+                <li><a href="html/lib.html">Библиотека</a></li>
+              </ul>
+            </div>
+            <div class="about">
+              <input id="chk_3" class="UP" type="checkbox" name="abo" />
+              <label for="chk_3">Справки</label>
+              <ul class="sub">
+                <li><a href="html/oops.html">Тех. поддержка</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right">
+            <a href="html/oops.html"><img class="top_bar_img news" src="img/rup.png" alt="опо" /></a>
+            <a href="html/oops.html"><img class="top_bar_img info" src="img/call.png" alt="нов" /></a>
+            <div class="acc">
+              <input id="chk_4" class="UP" type="checkbox" name="profile" />
+              <label for="chk_4"><img class="prof" src="img/acc/ico.png" alt="prof" ><span class="niki_">ИМЯ</span></label>
+              <ul class="sub sub_2">
+                <li><a href="html/acc.html">Профиль</a></li>
+                <li><a href="html/reg.html">Войти в другой</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="top_bar_2">
+          <a class="curensi bib" href="index.html">МАГАЗИН</a>
+          <a href="html/lib.html" class="bib und">БИБЛИОТЕКА</a>
+          <a class="bib und" href="html/acc.html">ПРОФИЛЬ</a>
+        </nav>
+      </div>
+
+      <div class="content_mid">
+        <div class="search">
+          <div class="searching">
+            <a class="bib" href="index.html">Магазин</a>
+            <a class="bib" href="#pop">Новое</a>
+            <a class="bib" href="#kat">Каталог</a>
+            <a class="bib" href="html/oops.html">Новости</a>
+            <form class="poisk">
+              <input class="send pole" type="search" placeholder="Поиск" />
+            </form>
+          </div>
+        </div>
+        <div class="context">
+          <div class="popular" id="pop">
+            <div class="left_arr bib">
+              <img class="strelka" src="img/shop/l_arr.png" alt="l_arr">
+            </div>
+            <div class="center_ph">
+              <div class="ph one"><a href="https://www.minecraft.net/ru-ru"><img class="baaaner" src="img/lib/minecraft.jpg" alt="ph1" /></a></div>
+              <div class="ph two"><a href="https://www.roblox.com/"><img class="baaaner" src="img/lib/rb.jpg" alt="ph2" /></a></div>
+              <div class="ph three"><a href="https://store.steampowered.com/"><img class="baaaner" src="img/shop/cs.jpeg" alt="ph3" /></a></div>
+            </div>
+            <div class="right_arr bib">
+              <img src="img/shop/r_arr.png" class="strelka" alt="r_arr">
+            </div>
+          </div>
+          <div class="category">
+            <div class="left_arr_2 bib">
+              <img class="strelka" src="img/shop/l_arr.png" alt="l_arr">
+            </div>
+            <div class="grp _one">
+              <div class="cat ph_1">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/strategi.jpg" alt="grp" />Стратегия</a>
+              </div>
+              <div class="cat ph_2">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/rpg.jpg" alt="grp" />РПГ</a>
+              </div>
+              <div class="cat ph_3">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/rogue.jpeg" alt="grp" />Рогалик</a>
+              </div>
+            </div>
+            <div class="grp _two">
+              <div class="cat ph_4">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/pixel.jpg" alt="grp_2" />Пиксели</a>
+              </div>
+              <div class="cat ph_5">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/golo.webp" alt="grp_2" />Головоломка</a>
+              </div>
+              <div class="cat ph_6">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/plat.webp" alt="grp_2" />Платформер</a>
+              </div>
+            </div>
+            <div class="right_arr_2 bib">
+              <img src="img/shop/r_arr.png" class="strelka" alt="r_arr">
+            </div>
+          </div>
+
+          <div class="category" id="kat">
+            <div class="left_arr_3 bib">
+              <img class="strelka" src="img/shop/l_arr.png" alt="l_arr">
+            </div>
+            <div class="_grp _one_">
+              <div class="cat ph_1">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/free.jpg" alt="grp" />бесплатно</a>
+              </div>
+              <div class="cat ph_2">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/rich.jpg" alt="grp" />дорого</a>
+              </div>
+              <div class="cat ph_3">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/indi.png" alt="grp" />инди</a>
+              </div>
+            </div>
+            <div class="_grp _two_">
+              <div class="cat ph_4">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/zomb.png" alt="grp_2" />зомби</a>
+              </div>
+              <div class="cat ph_5">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/horror.jpg" alt="grp_2" />хоррор</a>
+              </div>
+              <div class="cat ph_6">
+                <a href="html/oops.html"><img class="photooo" src="img/shop/coop.jpg" alt="grp_2" />кооператив</a>
+              </div>
+            </div>
+            <div class="right_arr_3 bib">
+              <img src="img/shop/r_arr.png" class="strelka" alt="r_arr">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="bib">
+          <a href="html/oops.html"><img />добавить игру</a>
+        </div>
+        <div class="bib"><a href="html/oops.html">загрузки</a></div>
+        <div class="bib"><a href="html/oops.html">чат</a></div>
+      </footer>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  list-style: none;
+}
+body {background: #7474D2;}
+main {
+  margin: 0 auto;
+  width: 1080px;
+}
+.side {
+  width: 180px;
+  background: #5D5E6F
+}
+.igri {
+  width: 900px;
+  background: #5D5E5A;
+}
+.baner {
+  text-align: center;
+  height: 180px;
+  background-color: black;
+}
+.names {
+  padding: 10px;
+}
+.names ul li {
+  margin-top: 15px;
+  cursor: pointer;
+}
+.cur {
+  text-decoration: underline;
+  color: white;
+}
+.curenty {
+  width: 900px;
+  height: 180px;
+  opacity: 0.8;
+}
+.down {
+  margin-top: 15px;
+}
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 100px;
+}
+.play a {color: white;}
+.libs {display: flex;}
+
+/*
+footer {
+  width: 1080px;
+  height: 40px;
+  background: #5D5E6F;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.bib {cursor: pointer;}
+
+
+
+.navigation {
+  width: 1080px;
+  margin-bottom: 15px;
+  background: #5D5E6F;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  font-size: 5;
+}
+.top_bar_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.left {
+  display: flex;
+}
+.right {
+  display: flex;
+}
+.left * {margin-left: 10px;}
+.right * {margin-right: 10px;}
+.top_bar_2 {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  font-weight: bold;
+}
+.UP, ul.sub {
+  display: none;
+  list-style:none;
+  background: #4C4C67;
+  color: #E9E9F1;
+  padding: 3px;
+  margin: 3px 0;
+  position: absolute;
+  font-size: 5;
+  cursor: pointer;
+}
+label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background: #5D5E6F;
+  width: 100px;
+  color: #E9E9F1;
+  padding: 5px;
+  font-size: 5;
+}
+.UP:checked~ul.sub {
+  display: block;
+}
+*/

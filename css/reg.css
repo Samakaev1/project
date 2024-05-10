@@ -1,0 +1,7 @@
+* {
+  color: black;
+}
+.log, .nik, .pas {display: flex; margin-top: 15px;}
+.btns * {margin-left: 15px;}
+.btnn {width: 100px; margin-top: 15px;}
+.foma_reg {margin-left: 400px;margin-top: 15px;}

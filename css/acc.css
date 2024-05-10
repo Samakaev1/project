@@ -1,0 +1,36 @@
+* {
+  list-style: none;
+}
+main {
+  background-color: #7F6986;
+}
+.profile {
+  display: flex;
+  height: 160px;
+}
+.acc_photo {
+  height: 128px;
+  width: 128px;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+.nik {
+  margin-left: 40px;
+  height: 20px;
+  align-self: center;
+}
+.downs {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.right_bar {
+  width: 180px;
+  text-align: center;
+}
+.right_bar ul li {margin-top: 10px;}
+.coms {
+  width: 800px;
+  margin-left: 50px;
+}
+.logs {cursor: default;}
